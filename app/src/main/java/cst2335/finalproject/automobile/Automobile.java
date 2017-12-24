@@ -1,4 +1,4 @@
-package cst2335.finalproject;
+package cst2335.finalproject.automobile;
 
 import android.app.Activity;
 import android.os.Bundle;

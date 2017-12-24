@@ -16,10 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActivityTracking" />
-        <activity android:name=".Automobile" />
-        <activity android:name=".FoodNutritionTracker" />
-        <activity android:name=".HouseThermostat"></activity>
+        <activity android:name=".activityTracking.ActivityTracking" />
+        <activity android:name=".automobile.Automobile" />
+        <activity android:name=".foodNutritionTracker.FoodNutritionTracker" />
+        <activity android:name=".houseThermostat.HouseThermostat"></activity>
     </application>
 
 </manifest>

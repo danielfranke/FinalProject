@@ -1,7 +1,9 @@
-package cst2335.finalproject;
+package cst2335.finalproject.houseThermostat;
 
 import android.app.Activity;
 import android.os.Bundle;
+
+import cst2335.finalproject.R;
 
 public class HouseThermostat extends Activity {
 
