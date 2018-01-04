@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nutrition_bg"
+    tools:context=".nutritionTracker.NutritionTracker">
+
+    <ListView
+        android:id="@+id/food_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/nutrition_details_fragment"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp">
+    </ListView>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@android:style/Widget.Holo.ProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:visibility="visible" />
+
+    <FrameLayout
+        android:id="@+id/nutrition_details_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/nutrition_total_calories_textView">
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/nutrition_total_calories_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/nutrition_layout_buttons"
+        android:background="@color/hotPink"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/nutrition_layout_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <ImageButton
+            android:id="@+id/nutrition_add_entry_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:background="@color/black"
+            android:contentDescription="@string/button_add_nutrition_entry"
+            android:cropToPadding="false"
+            android:src="@drawable/ic_nutrition_add_entry" />
+
+        <ImageButton
+            android:id="@+id/nutrition_delete_entry_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:background="@color/black"
+            android:contentDescription="@string/button_delete_nutrition_entry"
+            android:src="@drawable/ic_nutrition_delete_entry" />
+
+        <ImageButton
+            android:id="@+id/nutrition_edit_entry_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:contentDescription="@string/button_edit_nutrition_entry"
+            android:src="@drawable/ic_nutrition_edit_entry" />
+    </LinearLayout>
+
+</RelativeLayout>

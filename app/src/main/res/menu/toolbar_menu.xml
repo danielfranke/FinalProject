@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/mi_activityTracker"
+        android:icon="@drawable/ic_bike"
+        app:showAsAction="always"
+        android:title="@string/toolbar_activityTracking" />
+
+    <item
+        android:id="@+id/mi_automobile"
+        android:icon="@drawable/ic_auto"
+        app:showAsAction="always"
+        android:title="@string/toolbar_automobile" />
+
+    <item
+        android:id="@+id/mi_thermostat"
+        android:icon="@drawable/ic_thermostat"
+        app:showAsAction="always"
+        android:title="@string/toolbar_houseThermostat" />
+
+    <item
+        android:id="@+id/mi_nutritionTracker"
+        android:icon="@drawable/ic_nutrition"
+        app:showAsAction="always"
+        android:title="@string/toolbar_nutritionTracker" />
+
+    <item
+        android:id="@+id/mi_help"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_help"
+        android:title="@string/toolbar_help" />
+</menu>
