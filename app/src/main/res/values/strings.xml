@@ -1,3 +1,78 @@
 <resources>
-    <string name="app_name">FinalProject</string>
+
+    <!-- GLOBAL STRINGS -->
+    <string name="app_name"> </string> <!-- leave activity name blank -->
+    <string name="date">Date: </string>
+    <string name="authorText">Author: </string>
+    <string name="version">Version Number: </string>
+    <string name="instructions">Instructions: </string>
+
+    <string name="message_entry_added_successfully">Entry Added Successfully!</string>
+
+    <!-- TOOLBAR STRINGS (toolbar_menu.xml) -->
+    <string name="toolbar_activityTracking">Activity</string>
+    <string name="toolbar_automobile">Automobile</string>
+    <string name="toolbar_houseThermostat">Thermostat</string>
+    <string name="toolbar_nutritionTracker">Nutrition</string>
+    <string name="toolbar_help">Help</string>
+
+    <!-- ####################################################################################################################################################### -->
+
+    <!-- STRINGS FOR NUTRITION TRACKER ACTIVITY (Daniel Franke) / Also translated to French Canadian -->
+    <string name="confirm_delete">DELETE this entry?</string>
+    <string name="confirm_delete_response_yes">Yes</string>
+    <string name="confirm_delete_response_no">No</string>
+    <string name="add_new_entry">ADD</string>
+    <string name="update_entry">UPDATE</string>
+    <string name="nutrition_details_entry_date">Added</string>
+    <string name="nutrition_details_fat">Fat:</string>
+    <string name="nutrition_details_carbohydrates">Carbohydrates:</string>
+    <string name="nutrition_daily_calories_eaten">Calories Consumed Today:</string>
+    <string name="nutrition_empty_entry_warning">Entry fields must contain a value!</string>
+    <string name="nutrition_nothing_changed_toast">No changes made or entry field is empty</string>
+
+    <!-- nutrition_add_entry hints -->
+    <string name="add_nutrition_entry_food_item_hint">Food</string>
+    <string name="add_nutrition_entry_calories_hint">Calories (Kcal)</string>
+    <string name="add_nutrition_entry_fat_hint">Fat (g)</string>
+    <string name="add_nutrition_entry_carbohydrates_hint">Carbohydrates (g)</string>
+
+    <!-- content description for buttons (activity_nutrition_tracker.xml) -->
+    <string name="button_add_nutrition_entry">Add button for nutrition entry</string>
+    <string name="button_delete_nutrition_entry">Delete button for nutrition entry</string>
+    <string name="button_edit_nutrition_entry">Edit button for nutrition entry</string>
+
+
+    <!-- detailed app instructions (dialog_box.xml) -->
+    <string name="nutrition_instructions">
+        \nInstructions:
+        \n\n
+        1. ADD a Nutrition Entry\n
+        Press the (+) symbol (left icon in the bottom menu) to create a new entry.
+        \n\n
+        2. EDIT a Nutrition Entry\n
+        Press the (!) symbol (right icon in the botton menu) to edit an entry.
+        Confirm your selection when prompted or press cancel.
+        \n\n
+        3. DELETE a Nutrition Entry\n
+        Press the (-) symbol (middle icon in the bottom menu). Confirm your selection when prompted or press cancel.
+        \n\n
+        4. DISPLAY the Details of a Nutrition Entry\n
+        Click any entry on the main page of the nutrition application to display its details
+        \n\n
+        5. VIEW Total Calories Consumed (Kcal)\n
+        Total calories consumed are displayed in the bottom portion of your screen (above bottom menu).
+       \n\n
+        * IMPORTANT: All fields must be completed when adding or updating an entry.
+    </string>
+
+    <!-- END Nutrition Tracker Strings ####################################################################################################################################################### -->
+
+    <string name="nutrition_details_calories">Calories:</string>
+    <string name="nutrition_details_date">Added on</string>
+
+    <string name="nutrition_snackbar_add_entry">Entry Added Successfully!</string>
+    <string name="nutrition_snackbar_delete_entry">Entry Deleted Successfully!</string>
+    <string name="nutrition_snackbar_update_entry">Entry Edited Successfully!</string>
+
 </resources>
